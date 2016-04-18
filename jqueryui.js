@@ -23,6 +23,10 @@ $(document).ready(function() {
     $( "#selectable" ).selectable();
   });
 
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+
   $( ".selector" ).accordion({
   active: 2
 });
